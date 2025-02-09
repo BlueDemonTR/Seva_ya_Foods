@@ -3,9 +3,9 @@
 	"id": "seva-ya-foods",
 	"version": "${version}",
 	"name": "Seva ya Foods",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds more food items into the game, powered by filament",
 	"authors": [
-		"Me!"
+		"Poyoraz"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",

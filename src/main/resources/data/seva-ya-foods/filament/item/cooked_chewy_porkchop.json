@@ -1,0 +1,22 @@
+{
+  "id": "seva-ya-foods:cooked_chewy_porkchop",
+  "itemResource":  {
+    "models": {
+      "default": "seva-ya-foods:custom/misc/cooked_chewy_porkchop"
+    }
+  },
+  "components": {
+    "minecraft:food": {
+      "nutrition": 6,
+      "saturation": 9.6,
+      "can_always_eat": false
+    },
+    "minecraft:consumable": {
+      "consume_seconds": 3
+    }
+  },
+  "vanillaItem": "minecraft:cooked_porkchop",
+  "properties": {
+    "stackSize": 64
+  }
+}

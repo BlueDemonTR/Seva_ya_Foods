@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": "seva-ya-foods:raw_chewy_porkchop",
+  "result": {
+    "id": "seva-ya-foods:cooked_chewy_porkchop"
+  },
+  "experience": 0,
+  "cookingtime": 150
+}

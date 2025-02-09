@@ -1,5 +1,8 @@
 package poyoraz.seva_ya_foods;
 
+import de.tomalbrc.filament.Filament;
+import de.tomalbrc.filament.api.FilamentLoader;
+import eu.pb4.polymer.resourcepack.api.PolymerResourcePackUtils;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -19,6 +22,12 @@ public class SevaYaFoods implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+
+
+		FilamentLoader.loadItems(MOD_ID);
+		PolymerResourcePackUtils.addModAssets(MOD_ID);
+		PolymerResourcePackUtils.markAsRequired();
+
+		LOGGER.info("Seva ya Foods initialized!");
 	}
 }
