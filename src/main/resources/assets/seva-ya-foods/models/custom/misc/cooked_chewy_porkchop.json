@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+	  "layer0": "seva-ya-foods:item/cooked_chewy_porkchop"
+	}
+  }
